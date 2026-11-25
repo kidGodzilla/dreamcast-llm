@@ -118,21 +118,6 @@ queues.
 - **Flycast:** 2.7 crashes on macOS 27, so it was built from master with a few CMake fixes.
 - **dcdib-mac:** burns the CDI's two sessions with cdrecord. It worked under sudo with SIP left on.
 
-## The disc that wouldn't boot
-
-The first two burns went to the console menu. A lot of time went into theories about the disc: padding, session
-layout, XA subheaders, region flags. A read-only checker (`tools/inspect_disc.py`) settled the facts:
-
-- Both burns read back byte-identical to their images.
-- Their boot headers were valid.
-- Their layout matched a CD-R that had booted on this console before.
-
-Then the known-good CD-R stopped booting, and then the pressed Sonic Adventure GD-ROM did too. The drive would spin
-for a couple of seconds and give up. Cooling didn't help. A small turn of the laser potentiometer did, and the
-disc booted on the first try after that.
-
-Lesson: when a homebrew disc won't boot, test a known-good disc before changing anything about the image.
-
 ## What's next
 
 - **Assembly matmul.** Hand-written SH-4 code that overlaps int8 loads and conversion with FIPR. That targets
