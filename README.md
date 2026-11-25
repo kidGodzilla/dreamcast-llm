@@ -4,6 +4,8 @@ A Sega Dreamcast you chat with. A 7M-parameter language model runs on the consol
 CD-R, with no network. It writes about 3.6–3.9 tokens per second on real hardware. It answers as **DC**, the
 console itself, living in 1999–2001.
 
+![Dreamcast: It's thinking](dreamcast-thinking.jpg)
+
 ```
 YOU  sup?
 DC   Not much, just sitting here being 128 bit. How about you? Anything fun going on today?
