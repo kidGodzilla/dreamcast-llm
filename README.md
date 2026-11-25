@@ -1,4 +1,4 @@
-# Dreamcast Thinking
+# Dreamcast: It's Actually Thinking
 
 A Sega Dreamcast you chat with. A 7M-parameter language model runs on the console's 200 MHz SH-4, from a
 CD-R, with no network. It writes about 3.6–3.9 tokens per second on real hardware. It answers as **DC**, the
